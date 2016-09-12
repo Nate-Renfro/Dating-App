@@ -24,8 +24,8 @@
       <file leaf-file-name="Dating Website HTML Work.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dating Website HTML Work.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="240">
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
               <folding>
                 <element signature="n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#table#0;n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -37,11 +37,12 @@
                 <element signature="n#tr#3;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#tr#4;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#tr#5;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#fieldset#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#tr#0;n#table#0;n#fieldset#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#tr#1;n#table#0;n#fieldset#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#tr#0;n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#tr#1;n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#tr#2;n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#tr#3;n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -83,8 +84,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="62" />
-    <option name="y" value="98" />
+    <option name="x" value="53" />
+    <option name="y" value="159" />
     <option name="width" value="1374" />
     <option name="height" value="714" />
   </component>
@@ -113,41 +114,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DatingWebsiteProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DatingWebsiteProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DatingWebsiteProject" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DatingWebsiteProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DatingWebsiteProject" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CSS" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -225,17 +195,19 @@
       <updated>1473376117246</updated>
       <workItem from="1473376118918" duration="6936000" />
       <workItem from="1473461887040" duration="2751000" />
+      <workItem from="1473465066422" duration="4574000" />
+      <workItem from="1473721625808" duration="1848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9687000" />
+    <option name="totallyTimeSpent" value="16109000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="62" y="98" width="1374" height="714" extended-state="0" />
+    <frame x="53" y="159" width="1374" height="714" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25375375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26126125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -285,11 +257,78 @@
             <element signature="n#tr#3;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#tr#4;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#tr#5;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#fieldset#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#0;n#table#0;n#fieldset#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#1;n#table#0;n#fieldset#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#tr#0;n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#tr#1;n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#2;n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#3;n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/Front Page Styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dating Website HTML Work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#0;n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#0;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#1;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#2;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#3;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#4;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#5;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#0;n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#1;n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#2;n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#3;n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/Front Page Styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dating Website HTML Work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#0;n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#0;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#1;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#2;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#3;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#4;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#5;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#0;n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#1;n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#2;n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#3;n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -312,8 +351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dating Website HTML Work.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="240">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
           <folding>
             <element signature="n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#table#0;n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -325,11 +364,12 @@
             <element signature="n#tr#3;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#tr#4;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#tr#5;n#table#0;n#fieldset#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#fieldset#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#0;n#table#0;n#fieldset#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#tr#1;n#table#0;n#fieldset#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#tr#0;n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#tr#1;n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#2;n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#3;n#table#0;n#fieldset#3;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

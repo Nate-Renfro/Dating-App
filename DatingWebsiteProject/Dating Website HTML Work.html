@@ -12,12 +12,15 @@
 <style>
     h1 {font-family: Arial}
     fieldset {width: 720px; border: solid; border-width: 10px; border-color: yellow; background-color: lightyellow; margin-bottom: 10px;}
-    label {display:inline-block; width: 180px}
+    label {display:inline-block; width: 180px;}
     textarea {width: 360px; height: 50px}
-    #facetable {}
-    .col1 {text-align: right}
+    .col1 {text-align: right; vertical-align: top}
     .col2 {text-align: left}
     .sliderlabel {text-align: center; background-color: crimson}
+    .sliders {row-span: 2;}
+    #minlabels {width: 45px; ; background-color: #d60e2c; text-align: center}
+    #maxlabels {width: 45px; ; background-color: #d61159; text-align: center}
+
 </style>
 
 <body>
@@ -25,13 +28,13 @@
 <!-- Your Face --> <fieldset>
     <legend>Your Face</legend>
    <!-- Face Image and Preview -->
-    <table id="facetable">
+    <table id="yourimage">
         <tr>
             <td class="col1">
-                <label for="faceimg">Your Image:</label>
+                <label for="avatar">Your Image:</label>
             </td>
             <td class="col2">
-                <input id="faceimg" type="file" required>
+                <input id="avatar" name="avatar" type="file" required>
             </td>
         </tr>
         <tr>
@@ -62,8 +65,8 @@
                 <label for="gender">Gender:</label>
             </td>
             <td class="col2">
-                <input id="gender" name="gender" type="radio" required><label>Male</label>
-                <input id="gender" name="gender" type="radio" required><label>Female</label>
+                <input id="gender" name="gender" type="radio" required>Male
+                <input name="gender" type="radio" required>Female
             </td>
         </tr>
         <!-- Age --> <tr>
@@ -83,18 +86,18 @@
             </td>
         </tr>
         <!-- Color --> <tr>
-            <td>
+            <td class="col1">
                <label for="color">Favourite Color:</label>
             </td>
-            <td>
+            <td class="col2">
                 <input id="color" type="color">
             </td>
         </tr>
         <!-- Country --> <tr>
-            <td>
+            <td class="col1">
                 <label for="country">Which Country:</label>
             </td>
-            <td>
+            <td class="col2">
                 <select id="country">
                     <option value="Country Not Listed">Country Not Listed</option>
                     <option value="United States">United States</option>
@@ -103,6 +106,7 @@
                     <option value="Russia">Russia</option>
                     <option value="China">China</option>
                     <option value="Mexico">Mexico</option>
+                </select>
 
             </td>
         </tr>
@@ -111,25 +115,27 @@
 <br>
 <!-- Your Indicators --> <fieldset>
     <legend>Your Indicators</legend>
-   <!-- Info Table --> <table>
-        <!-- Height Slider --> <tr>
+    <!-- Info Table --> <table>
+        <tr>
             <td class="col1">
-               <label for="height">Height:</label>
-            </td>
-            <td>
-                <label class="sliderlabel">Short</label>
-                <input id="height" type="range" min="0" max="100">
-                <label class="sliderlabel">Tall</label>
-            </td>
-        </tr>
-        <!-- Salary Slider --> <tr>
-            <td class="col1">
+                <label for="height">Height:</label>
+                <br>
                 <label for="salary">Salary:</label>
             </td>
-            <td>
-                <label class="sliderlabel">Poor</label>
+            <td class="slider" id="minlabels">
+                Short
+                <br>
+                Poor
+            </td>
+            <td class="sliders">
+                <input id="height" type="range" min="0" max="100">
+                <br>
                 <input id="salary" type="range" min="0" max="100">
-                <label class="sliderlabel">Rich</label>
+            </td>
+            <td class="sliders" id="maxlabels">
+                Tall
+                <br>
+                Rich
             </td>
         </tr>
     </table>
@@ -154,21 +160,26 @@
                 <input id="mobile" type="tel">
             </td>
         </tr>
-        <tr>
+        <!-- Address --> <tr>
             <td class="col1">
                 <label class="label" for="address">Address:</label>
             </td>
             <td>
-                <textarea></textarea>
+                <textarea id="address"></textarea>
             </td>
         </tr>
-        <tr>
-            <td>
+        <!-- Contact Methods --> <tr>
+            <td class="col1">
+                <label for="contactmethod" >Method(s) to Contact You:</label>
             </td>
-            <td>
+            <td class="col2">
+                <input id="contactmethod" type="checkbox" class="methods">Email
+                <input type="checkbox" class="methods">Whatsapp
+                <input type="checkbox" class="methods">In-App Chat
             </td>
         </tr>
     </table>
 </fieldset>
+<input type="submit">
 </body>
 </html>
