@@ -3,27 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Dating Information Entry Screen</title>
-
     <link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
     <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="CSS/Front%20Page%20Styles.css">
 </head>
-
-<style>
-    text {font-family: "Times New Roman"}
-    fieldset {width: 720px; border: solid; border-width: 10px; border-color: yellow; background-color: lightyellow; margin-bottom: 10px;}
-    label {display:inline-block; width: 180px;}
-    textarea {width: 360px; height: 50px}
-    .col1 {text-align: right; vertical-align: top}
-    .col2 {text-align: left}
-    .sliders {row-span: 2;}
-    #minlabels {width: 45px; background-color: #B7000C; text-align: center;}
-    #maxlabels {width: 45px; background-color: #920081; text-align: center;}
-
-</style>
-
 <body>
-<form method="post">
+<!-- Web Page --> <form method="post">
 <h1>Please Enter Your Details For Our Dating Website!</h1>
 <!-- Your Face --> <fieldset>
     <legend>Your Face</legend>
@@ -34,7 +20,7 @@
                 <label for="avatar">Your Image:</label>
             </td>
             <td class="col2">
-                <input id="avatar" name="avatar" type="file" required>
+                <input id="avatar" type='file' onchange="readURL(this);"/>
             </td>
         </tr>
         <tr>
@@ -42,7 +28,7 @@
                 <label for="preview">Image Preview:</label>
             </td>
             <td class="col2">
-                <img id="preview" src="">
+                <img id="preview" src="#" alt="your image"/>
             </td>
         </tr>
     </table>
@@ -139,7 +125,7 @@
             </td>
             <td class="sliderlabel" id="maxlabels">
                 Tall
-                <br>
+                <br hidden>
                 Rich
             </td>
         </tr>
@@ -187,5 +173,19 @@
 </fieldset>
 <input type="submit">
 </form>
+<!-- Java Script --> <script type="text/javascript">
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                $('#preview')
+                        .attr('src', e.target.result)
+                        .width(150)
+                        .height(200);
+            };
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+</script>
 </body>
 </html>
